@@ -67,7 +67,7 @@ nav {
 /* banner styles start */
 
 .banner {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 130px;
 }
@@ -105,14 +105,26 @@ nav {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* banner styles end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
