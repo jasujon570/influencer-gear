@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 320px) {
 
+    /* nav and banner section style start */
     nav,
     .nav-list {
         flex-direction: column;
@@ -28,6 +29,27 @@
         height: 100%;
         background-image: none;
     }
+
+    /* nav and banner section style end */
+
+    /* sponsor section style start */
+
+    .sponsors {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .sponsor-img-7 {
+        grid-column: span 2;
+    }
+
+
+    /* sponsor section style end */
+
+
+
+
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -58,7 +80,23 @@
         height: 100%;
         background-image: none;
     }
+
+    /* sponsor section style start */
+
+    .sponsors {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .sponsor-img-7 {
+        grid-column: span 2;
+    }
+
+
+    /* sponsor section style end */
 }
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     nav,
@@ -79,7 +117,22 @@
         flex-direction: column-reverse;
         gap: 20px;
     }
+
+    /* sponsor section style start */
+
+    .sponsors {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .sponsor-img-7 {
+        grid-column: span 3;
+    }
+
+    /* sponsor section style end */
 }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     nav,
@@ -96,7 +149,22 @@
         flex-direction: column;
         gap: 50px;
     }
+
+    /* sponsor section style start */
+
+    .sponsors {
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .sponsor-img-7 {
+        grid-column: span 3;
+    }
+
+    /* sponsor section style end */
 }
+
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
 
     nav,
@@ -108,7 +176,8 @@
         gap: 20px;
         justify-content: space-between;
     }
+
     .banner-content {
         width: 50%;
     }
-}   
+}
