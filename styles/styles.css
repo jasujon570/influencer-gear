@@ -37,7 +37,7 @@ header {
 
 
 
-/* header styles */
+/* header styles start */
 
 nav {
     margin: 87px auto 40px;
@@ -60,3 +60,59 @@ nav {
     font-size: 1.5rem;
     font-weight: 700;
 }
+
+/* header styles end*/
+
+
+/* banner styles start */
+
+.banner {
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+
+.banner-content {
+    max-width: 582px;
+}
+.banner-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-description {
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.banner-btn {
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 41px;
+    font-weight: 700;
+}
+.banner-img {
+    background-image: url(../images/Circle-design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 475px;
+    height: 475px;
+}
+.banner-img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* banner styles end */
