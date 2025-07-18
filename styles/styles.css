@@ -216,7 +216,46 @@ nav {
 /* collection styles end */
 
 
+/* featured product section styles start */
 
+.featured-proudct {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 100px auto;
+}
+.featured-product-image img {
+    width: 100%;
+}
+.featured-content {
+    max-width: 610px;
+}
+
+.featured-title {
+    font-size: 2.375rem;
+    color: #0A0826;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.featured-description {
+    width: 501px;
+    font-weight: bold;
+    color: #6C6C6C;
+    line-height: 28px;
+    margin: 16px 0;
+}
+.featured-btn {
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 24px;
+    background: #E02C6D;
+    border: none;
+}
+
+
+
+/* featured product section styles end */
 
 
 
