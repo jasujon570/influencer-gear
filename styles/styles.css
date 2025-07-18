@@ -273,3 +273,37 @@ nav {
 
 
 /* featured product section styles end */
+
+
+/* footer section styles start */
+
+footer {
+    background: #0A0826;
+}
+
+.footer-section {
+    max-width: 270px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-description {
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 3px 0 17px;
+    color: #D9DBE1;
+}
+
+.footer-links {
+    justify-content: space-around;
+}
+
+/* footer section styles end */
